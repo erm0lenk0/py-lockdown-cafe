@@ -1,7 +1,7 @@
 import datetime
 
 
-def go_to_cafe(friends: list, cafe: any) -> str:
+def go_to_cafe(friends: list, cafe: any, wearing_a_mask: bool = False) -> str:
     all_vaccinated = True
     mask_needed_count = 0
 
